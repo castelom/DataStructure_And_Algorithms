@@ -113,7 +113,7 @@ namespace DataStructure_And_Algorithms.DataStructures.List
             return null;
         }
 
-        public LinkedNode<T> RemoveElem(T value)
+        public LinkedNode<T> RemoveItem(T value)
         {
             LinkedNode<T> current = Head;
             int index = indexOf(value);
