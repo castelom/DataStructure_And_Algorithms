@@ -23,6 +23,21 @@ namespace DataStructure_And_Algorithms.DataStructures.List
             Head = new LinkedNode<T>(value);  
         }
 
+        public LinkedNode<T> getHead()
+        {
+            return Head;
+        }
+
+        public bool isEmpty()
+        {
+            return this.count == 0;
+        }
+
+        public int size()
+        {
+            return this.count;
+        }
+
         public void push(T value)
         {
             LinkedNode<T> node = new LinkedNode<T>(value);
@@ -135,19 +150,8 @@ namespace DataStructure_And_Algorithms.DataStructures.List
             return true;
         }
 
-        public bool isEmpty() 
-        { 
-            return this.count == 0; 
-        }
+        
 
-        public int size()
-        {
-            return this.count;
-        }
-
-        public LinkedNode<T> getHead()
-        {
-            return Head;
-        }
+        
     }
 }

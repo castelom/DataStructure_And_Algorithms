@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure_And_Algorithms", "DataStructure_And_Algorithms.csproj", "{3A3B8D33-865D-4669-BC49-29700667C6B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{805EF018-FFAB-4D30-A326-005A110399B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AE126BF0-6FB3-4738-90A0-DB161D46D046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure_And_Algorithms.test", "test\DataStructure_And_Algorithms.test\DataStructure_And_Algorithms.test.csproj", "{7A866A6B-19EE-4F9A-922F-AD119C36C9F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{3A3B8D33-865D-4669-BC49-29700667C6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A3B8D33-865D-4669-BC49-29700667C6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A3B8D33-865D-4669-BC49-29700667C6B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A866A6B-19EE-4F9A-922F-AD119C36C9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A866A6B-19EE-4F9A-922F-AD119C36C9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A866A6B-19EE-4F9A-922F-AD119C36C9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A866A6B-19EE-4F9A-922F-AD119C36C9F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A3B8D33-865D-4669-BC49-29700667C6B0} = {805EF018-FFAB-4D30-A326-005A110399B2}
+		{7A866A6B-19EE-4F9A-922F-AD119C36C9F8} = {AE126BF0-6FB3-4738-90A0-DB161D46D046}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {597BFF06-FF4F-44FB-BBD6-9AAAB78697A7}
